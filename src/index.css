@@ -1,0 +1,119 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+/* @import url(../src/assets/popins/Poppins-Black.ttf); */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: poppins;
+  src: url(../src/assets/popins/Poppins-Black.ttf),
+  url(../src/assets/popins/Poppins-BlackItalic.ttf),
+  url(../src/assets/popins/Poppins-Bold.ttf),
+  url(../src/assets/popins/Poppins-BoldItalic.ttf),
+  url(../src/assets/popins/Poppins-ExtraBold.ttf),
+  url(../src/assets/popins/Poppins-ExtraBoldItalic.ttf),
+  url(../src/assets/popins/Poppins-ExtraLight.ttf),
+  url(../src/assets/popins/Poppins-Italic.ttf),
+  url(../src/assets/popins/Poppins-LightItalic.ttf),
+  url(../src/assets/popins/Poppins-Medium.ttf),
+  url(../src/assets/popins/Poppins-MediumItalic.ttf),
+  url(../src/assets/popins/Poppins-Regular.ttf),
+  url(../src/assets/popins/Poppins-SemiBold.ttf),
+  url(../src/assets/popins/Poppins-SemiBoldItalic.ttf),
+  url(../src/assets/popins/Poppins-Thin.ttf),
+  url(../src/assets/popins/Poppins-ThinItalic.ttf),
+}
+
+
+:root {
+
+/* Colors: */
+--unnamed-color-f7f7f7: #F7F7F7;
+--unnamed-color-230b29: #230B29;
+--unnamed-color-ffffff: #FFFFFF;
+--unnamed-color-dddee0: #DDDEE0;
+--unnamed-color-f2dc5d: #F2DC5D;
+--unnamed-color-390049: #390049;
+--unnamed-color-0cce6b: #0CCE6B;
+
+/* Font/text values */
+--unnamed-font-family-poppins: Poppins;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-600: 600px;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-weight-medium: medium;
+--unnamed-font-size-16: 16px;
+--unnamed-font-size-18: 18px;
+--unnamed-font-size-24: 24px;
+--unnamed-font-size-34: 34px;
+--unnamed-font-size-54: 54px;
+--unnamed-font-size-74: 74px;
+--unnamed-character-spacing-0-24: 0.24px;
+--unnamed-character-spacing-0-27: 0.27px;
+--unnamed-character-spacing-0-36: 0.36px;
+--unnamed-character-spacing-0-51: 0.51px;
+--unnamed-character-spacing-0-81: 0.81px;
+--unnamed-character-spacing-1-11: 1.11px;
+--unnamed-line-spacing-28: 28px;
+--unnamed-line-spacing-34: 34px;
+--unnamed-line-spacing-44: 44px;
+--unnamed-line-spacing-64: 64px;
+--unnamed-line-spacing-84: 84px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-74);
+line-height: var(--unnamed-line-spacing-84);
+letter-spacing: var(--unnamed-character-spacing-1-11);
+color: var(--unnamed-color-ffffff);
+}
+.unnamed-character-style-2 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-54);
+line-height: var(--unnamed-line-spacing-64);
+letter-spacing: var(--unnamed-character-spacing-0-81);
+color: var(--unnamed-color-0cce6b);
+}
+.unnamed-character-style-3 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-18);
+line-height: var(--unnamed-line-spacing-28);
+letter-spacing: var(--unnamed-character-spacing-0-27);
+color: var(--unnamed-color-ffffff);
+}
+.unnamed-character-style-4 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-16);
+line-height: var(--unnamed-line-spacing-84);
+letter-spacing: var(--unnamed-character-spacing-0-24);
+color: var(--unnamed-color-390049);
+}
+.unnamed-character-style-5 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-34);
+line-height: var(--unnamed-line-spacing-44);
+letter-spacing: var(--unnamed-character-spacing-0-51);
+color: var(--unnamed-color-390049);
+}
+.unnamed-character-style-6 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-34);
+letter-spacing: var(--unnamed-character-spacing-0-36);
+color: var(--unnamed-color-390049);
+} 
