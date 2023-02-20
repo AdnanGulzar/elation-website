@@ -12,12 +12,8 @@ const Slider = () => {
     <img src={acc2} alt="" />
     <img src={acc3} alt="" />
     <img src={acc4} alt="" />
-    <img src={acc4} alt="" />
-    <img src={acc4} alt="" />
 
     </div>
   </section>
   )
 }
-
-export default Slider
