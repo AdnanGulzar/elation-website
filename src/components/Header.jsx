@@ -7,7 +7,7 @@ const Header = () => {
     <section className="headerArea">
     <div className={toggle===false?"menu-Overlay menu-Overlayhide":"menu-Overlay menu-Overlayshow"}>
        <button onClick={()=>setToggle(!toggle)} > 
-       <i class="fa-solid fa-xmark"></i></button>
+       <i className="fa-solid fa-xmark"></i></button>
        <div className="top">
         <img src={logoImg} alt="" />
        </div>
@@ -19,10 +19,10 @@ const Header = () => {
         <h3>Blog</h3>
        </div>
        <div className="bottom">
-             <i class="fa-brands fa-instagram"></i>
-             <i class="fa-brands fa-instagram"></i>
-             <i class="fa-brands fa-instagram"></i>
-             <i class="fa-brands fa-instagram"></i>
+             <i className="fa-brands fa-instagram"></i>
+             <i className="fa-brands fa-instagram"></i>
+             <i className="fa-brands fa-instagram"></i>
+             <i className="fa-brands fa-instagram"></i>
        </div>
     </div>
     <header className='header'>

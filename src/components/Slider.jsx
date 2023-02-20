@@ -17,3 +17,4 @@ const Slider = () => {
   </section>
   )
 }
+export default Slider

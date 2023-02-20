@@ -40,9 +40,9 @@ const Footer = () => {
           </div>
              <div className="right">
              <div className="icons">
-             <i class="fa-brands fa-instagram"></i>
-             <i class="fa-brands fa-instagram"></i>
-             <i class="fa-brands fa-instagram"></i>
+             <i className="fa-brands fa-instagram"></i>
+             <i className="fa-brands fa-instagram"></i>
+             <i className="fa-brands fa-instagram"></i>
              </div>
             <p>Subscribe to our newsletter and stay in the loop.</p>
              <span>SIGN UP</span>
